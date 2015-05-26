@@ -1,0 +1,15 @@
+.button-container {
+    width: 420px;
+    overflow-y: auto;
+}
+
+.button-container > input {
+    width: 100px;
+    height: 100px;
+    float: left;
+    /*margin: 15px;*/
+}
+
+#input {
+	margin: 15px;
+}
