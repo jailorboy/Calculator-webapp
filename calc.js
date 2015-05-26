@@ -11,12 +11,14 @@ calc.onclick = function (e) {
 		value = value + press;
 	}
 	else if (press == "C"){
-		value = "";
+		value= "";
+		input.innerHTML = "<h3>Input</h3>";
 	}
 	else if (press == "=") {
 		value = eval(value);
 	}
-	input.innerHTML = "<h3>"+value+"</h3>";
+	if (press != "C")
+		input.innerHTML = "<h3>"+value+"</h3>";
 }
 
 
