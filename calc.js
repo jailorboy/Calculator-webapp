@@ -4,7 +4,7 @@ var value = "";
 
 calc.onclick = function (e) {
 	var press = e.target.value;
-	if (press == "+" || press == "-" || press=="*"||press=="/" ){
+	if (press == "+" || press == "-" || press=="*"||press=="/"|| press == "." ){
 		value = value + press;
 	}
 	else if (press >= 0 && press <= 9){
